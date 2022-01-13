@@ -1,0 +1,25 @@
+
+.jumbotron {
+   
+    color:whitesmoke;
+    background-color:rgb(35, 68, 167);
+    /* background-color:white; */
+}
+
+.jumbotron h1{
+    display:inline-block;
+    align-content: center;
+}
+.jumbotron img {
+    width: 10%;
+    background-color:rgb(35, 68, 167);
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* vertical-align: middle;
+    display:inline;
+    border-color:rgb(35, 68, 167) ; */
+    
+}
