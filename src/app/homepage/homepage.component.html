@@ -1,46 +1,84 @@
-<header class="p-3 bg-dark text-white">
-    <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-start">
-        <ul class="nav col-12 col-md-auto me-md-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#" class="nav-link px-2 text-white">Home</a></li>
-          <li><a href="#feature1" class="nav-link px-2 text-white">Services</a></li>
-          <li><a href="#about" class="nav-link px-2 text-white">About</a></li>
-          <li><a href="#contact" class="nav-link px-2 text-white">Contact</a></li>
-    
-        </ul>
-        <h5>Call us today (860) 949-8836</h5>
-    
-      </div>
-    </div>
-    </header>
-    <main>
-    <div>
+<main>
+    <!-- <div>
         <br><br>
         <img src = "https://imgur.com/safAIsp.jpeg"  style = "max-width: 100%; height: auto;">
         <br><br><br>
+      </div> -->
+
+      <div class="container-fluid" >
+        <!-- Three columns of text below the carousel -->
+        <div class="row" >
+          <div class="col-sm">
+            <img class="bd-placeholder-img bd-placeholder-img-lg img-fluid" src = "https://imgur.com/vMguZB4.jpeg" width="700" height="400">
+          </div><!-- /.col-lg-4 -->
+          <div class="col-sm">
+            <div class="jumbotron" >
+                <br>
+                <br>
+                <br>
+         
+                <h2 class="display-3" style = "font-weight: bold; color: red;text-align: center;"> Hey <span style="color: black;">i</span>Repair </h2>
+                <h2  class="display-6" style="color: blue;text-align: center;">
+                    433 W Main Street <br>
+                    Norwich, CT 06360 <br>
+                    (860) 949-8836 <br>
+                    HeyiRepair@gmail.com
+                </h2>
+            </div>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-sm">
+              <br><br>
+            <img class="bd-placeholder-img bd-placeholder-img-lg img-fluid" src = "https://imgur.com/MfcyPm4.jpeg" width="700" height="400">
+           
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+        <br><br>
+      </div>
+
+      <div class="d-md-flex flex-md-equal">
+        <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+          <div class="my-3 p-3">
+            <h2 class="heading-1">Visit or call today </h2>
+            <p class="lead">  for a free consultation on all your tech repairs needs</p>
+          </div>
+          <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;  ">
+          <img src="https://imgur.com/OJB8Y40.jpeg"  style="width: 90%; height: 300px;" >
+          </div>
+        </div>
+        <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+          <div class="my-3 p-3">
+            <h2 class="heading-1">Come yourself and check out </h2>
+            <p class="lead">our wall of reviews from all our satisfied customers</p>
+          </div>
+          <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;  ">
+          <img src = "https://imgur.com/BPenvpC.jpeg"  style="width: 90%; height: 300px;" >
+          </div>
+          <br><br>
+        </div>
       </div>
     
       <!-- Marketing messaging and featurettes
       ================================================== -->
       <!-- Wrap the rest of the page in another container to center all the content. -->
     <div id = "services" >
+        <br><br><br>
         <h1 class="display-4 fw-bold lh-1 mb-3" style="text-align: center;">SERVICES</h1>
         <div class="container marketing" >
         <!-- Three columns of text below the carousel -->
         <div class="row" >
-          <div class="col-lg-4">
+          <div class="col-sm col-lg-4">
             <img class="bd-placeholder-img bd-placeholder-img-lg img-fluid" src = "data:image/png;base64,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">
             <h2>Repair Services</h2>
             <br>
             <p><a class="btn btn-secondary" href="#feature1">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
+          <div class="col-sm col-lg-4">
             <img class="bd-placeholder-img bd-placeholder-img-lg img-fluid" src = "data:image/png;base64,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">        
             <h2>Custom Services</h2>
             <br>
             <p><a class="btn btn-secondary" href="#feature2">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
+          <div class="col-sm col-lg-4">
             <img class="bd-placeholder-img bd-placeholder-img-lg img-fluid" src = "data:image/png;base64,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">
             <h2>Tech Fixes</h2>
             <br>
@@ -54,86 +92,65 @@
        <!-- START THE FEATURETTES -->
     
     <div id = "features">
-      <div class="container marketing" >
-    
-        <hr class="featurette-divider">
-        <div class="row featurette" id = "feature1">
-          <div class="col-md-6 order-lg-1">
-            <h2 class="display-5 fw-bold lh-1 mb-3" style="color: blue">REPAIR SERVICES</h2>
-            <br>
-            <p class="lead">HeyiRepair works hard to provide all of our customers with top notch repair services at competitive prices. In addition to our standard repair services, we also provide guidance and instructions on how to maintain the working condition of your items. When you need a professional repair solution, you can be sure to trust the services here at HeyiRepair.</p>
-          </div>
-          <div class="col-md-6 order-lg-2" >
-            <img src = "https://s3-media0.fl.yelpcdn.com/bphoto/akV74Mow_AMXpwmQ3MfAhA/300s.jpg" style="width:  500px ; height: 400px" >
-          </div>
-        </div>
-    
-        <hr class="featurette-divider" >
-    
-        <div class="row featurette" id = "feature2"> 
-          <div class="col-md-6 order-lg-2">
-            <h2 class="display-5 fw-bold lh-1 mb-3"style="color: blue">CUSTOM REPAIR</h2>
-            <br>
-            <p class="lead">Since 2010, we’ve provided customers with convenient and comprehensive services for all their repair needs, including Custom Repairs. HeyiRepair is committed to helping make your life easier which is why our services are available whenever you need them most. Get in touch today or visit our shop to find out more.</p>
-          </div>
-          <div class="col-md-6 order-lg-1">
-            <img src = "https://icityrepair.com/wp-content/uploads/2021/03/cell-phone-repair-768x461.jpeg"  style="width:500px ; height: 400px" >
-    
-          </div>
-        </div>
-    
-        <hr class="featurette-divider">
-    
-        <div class="row featurette " id = "feature3">
-          <div class="col-md-6">
-            <h2 class="display-5 fw-bold lh-1 mb-3" style="color: blue">TECH FIXES</h2>
-            <br>
-            <p class="lead">We provide tech fix solutions to many issues including: </p>
-            <ul class = "lead">
-              <li>Screen Replacement</li>
-              <li>Battery Replacemet</li>
-              <li>Charging Issues</li>
-              <li> Service Signal Problem</li>
-              <li>Power Management</li>
-              <li>Touch Issue</li>
-              <li>Data Recovery</li>
-              <li>Swap Phone Frame</li>
-              <li> and many more ...</li>
-            </ul>
+        <div class="container marketing" >
+
+            <hr class="featurette-divider">
+            <div class="row featurette" id = "feature1">
+              <div class="col-md-7">
+                <h2 class="display-5 fw-bold lh-1 mb-3" style="color: blue">REPAIR SERVICES</h2>
+                <br>
+                <p class="lead"style="font-family:'Courier New', Courier, monospace;">HeyiRepair works hard to provide all of our customers with top notch repair services at competitive prices. In addition to our standard repair services, we also provide guidance and instructions on how to maintain the working condition of your items. When you need a professional repair solution, you can be sure to trust the services here at HeyiRepair.</p>
+              </div>
+              <div class="col-md-5">
+                <img  class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src = "https://s3-media0.fl.yelpcdn.com/bphoto/akV74Mow_AMXpwmQ3MfAhA/300s.jpg" style="width:  500px ; height: 400px" >
+              </div>
+            </div>
         
+            <hr class="featurette-divider" >
+        
+            <div class="row featurette" id = "feature2"> 
+              <div class="col-md-6 order-lg-2">
+                <h2 class="display-5 fw-bold lh-1 mb-3"style="color: blue">CUSTOM REPAIR</h2>
+                <br>
+                <p class="lead" style="font-family:'Courier New', Courier, monospace; ">Since 2010, we’ve provided customers with convenient and comprehensive services for all their repair needs, including Custom Repairs. HeyiRepair is committed to helping make your life easier which is why our services are available whenever you need them most. Get in touch today or visit our shop to find out more.</p>
+              </div>
+              <div class="col-md-6 order-lg-1">
+                <img  class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"  src = "https://icityrepair.com/wp-content/uploads/2021/03/cell-phone-repair-768x461.jpeg"  style="width:500px ; height: 400px" >
+        
+              </div>
+            </div>
+        
+            <hr class="featurette-divider">
+        
+            <div class="row featurette " id = "feature3">
+              <div class="col-md-6">
+                <h2 class="display-5 fw-bold lh-1 mb-3" style="color: blue">TECH FIXES</h2>
+                <br>
+                <p class="lead" style="font-family:'Courier New', Courier, monospace;">We provide tech fix solutions to many issues including: </p>
+                <ul style="font-family:'Courier New', Courier, monospace;font-size: larger;">
+                  <li>Screen Replacement</li>
+                  <li>Battery Replacemet</li>
+                  <li>Charging Issues</li>
+                  <li> Service Signal Problem</li>
+                  <li>Power Management</li>
+                  <li>Touch Issue</li>
+                  <li>Data Recovery</li>
+                  <li>Swap Phone Frame</li>
+                  <li> and many more ...</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <!-- <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHsDfAVCF7zUOry9warF-XedIfqZbCJjUVeA&usqp=CAU" style="width: 500px; height: auto;"> -->
+                <br><br>
+                <img  class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"  src =  "https://it.wisc.edu/wp-content/uploads/Computer-Repair-900x400-1.jpg" style="width: 550px; height: 350px;">
+              </div>
+            </div>
+            <br><br><br>
           </div>
-          <div class="col-md-6">
-            <!-- <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHsDfAVCF7zUOry9warF-XedIfqZbCJjUVeA&usqp=CAU" style="width: 500px; height: auto;"> -->
-            <img src =  "https://it.wisc.edu/wp-content/uploads/Computer-Repair-900x400-1.jpg" style="width: 550px; height: 350px;">
-            
-        </div>
-      </div>
-        <br>    
-        <!-- /END THE FEATURETTES -->
-      </div>
+          
       </div><!-- /.container -->
 
-      <div class="d-md-flex flex-md-equal" style="background-color:aliceblue;">
-        <div class=" me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div class="my-3 p-3">
-            <h2 class="heading-1">Visit or call today </h2>
-            <p class="lead">  for a free consultation on all your tech repairs needs</p>
-          </div>
-          <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;  ">
-          <img src="https://imgur.com/OJB8Y40.jpeg"  style="width: 90%; height: 300px;" >
-          </div>
-        </div>
-        <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div class="my-3 p-3">
-            <h2 class="heading-1">Come yourself and check out </h2>
-            <p class="lead">our wall of reviews from all our satisfied customers</p>
-          </div>
-          <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;  ">
-          <img src = "https://imgur.com/BPenvpC.jpeg"  style="width: 90%; height: 300px;" >
-          </div>
-          <br><br>
-        </div>
-      </div>
+     
       <div class= "b-example-divider"></div>
       
       <div id = "about" style="background-color:silver;">
@@ -143,7 +160,7 @@
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
             <div class = "frame">
-            <img src="https://imgur.com/4vuwLXU.jpg" class="d-block mx-lg-auto img-fluid" alt="Store pic" width="700" height="500" loading="lazy">
+            <img src="https://imgur.com/4vuwLXU.jpg" class="d-block mx-lg-auto img-fluid" alt="Store pic" width="700" height="500">
           </div>
           </div>
           <div class="col-lg-6">
@@ -162,7 +179,7 @@
       <div class = "bg-dark" id = "contact" >
       <div class="container col-xl-10 col-xxl-8 px-4 py-5">
         <div class="row align-items-center g-lg-5 py-5">
-          <div class="col-lg-7 text-center text-lg-start">
+          <div class="col-lg-7 col-sm text-center text-lg-start">
             <h2 class="display-5 fw-bold lh-1 mb-3" style="color: white;">  CONTACT US</h2>
             <br><br>
             <h3 class="col-lg-10 fs-4" style="color:white;font-weight:normal;">
@@ -187,7 +204,7 @@
             </a> 
             </h3>
           </div>
-          <div class="col-md-10 mx-auto col-lg-5">
+          <div class="col-md-10 col-sm mx-auto col-lg-5">
             <br><br>
            <app-contact-form></app-contact-form>
           </div>

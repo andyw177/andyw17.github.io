@@ -7,13 +7,15 @@ import { AppRoutingModule } from "./app-routing.module";
 import { BannerComponent } from './banner/banner.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BannerComponent,
     ContactFormComponent,
-    HomepageComponent
+    HomepageComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
