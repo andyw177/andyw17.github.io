@@ -12,7 +12,7 @@ export class LeafletMapComponent implements AfterViewInit  {
 
   private initMap(): void {
     const greenIcon = L.icon({
-      iconUrl: './marker-icon.png',
+      iconUrl: 'https://imgur.com/rRrN8rN.png',
       // shadowUrl: './marker-shadow.png',
       iconSize:     [28, 45], // size of the icon
       // shadowSize:   [50, 64], // size of the shadow
