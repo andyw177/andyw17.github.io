@@ -11,3 +11,22 @@
       font-size: 3.5rem;
     }
   }
+
+  .fixed-nav-bar{
+    position: fixed;
+    top: 200;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: fit-content;
+    background-color:rgb(35, 68, 167);
+  }
+
+  img {
+    width: 5%;
+    background-color:rgb(35, 68, 167);
+    border-radius: 50%;
+    display: block;
+    margin-left: 450px;
+    margin-right: auto;
+  }
