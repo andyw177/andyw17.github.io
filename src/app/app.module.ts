@@ -8,11 +8,9 @@ import { BannerComponent } from './banner/banner.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { MapComponent } from './map/map.component';
 import { ReviewsComponent } from './reviews/reviews.component';
 import { GoogleMapsModule } from '@angular/google-maps';
 import { LeafletMapComponent } from './leaflet-map/leaflet-map.component';
-import { ShareButtonsComponent } from './share-buttons/share-buttons.component'
 
 @NgModule({
   declarations: [
@@ -21,10 +19,8 @@ import { ShareButtonsComponent } from './share-buttons/share-buttons.component'
     ContactFormComponent,
     HomepageComponent,
     NavbarComponent,
-    MapComponent,
     ReviewsComponent,
     LeafletMapComponent,
-    ShareButtonsComponent
 
   ],
   imports: [

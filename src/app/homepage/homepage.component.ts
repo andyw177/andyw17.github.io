@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { ViewportScroller } from "@angular/common";
+import { Component, OnInit, VERSION } from "@angular/core";
+import { Router } from "@angular/router";
 
 @Component({
   selector: 'app-homepage',
@@ -7,9 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomepageComponent implements OnInit {
 
-  constructor() { }
+  constructor(private scroller: ViewportScroller, private router: Router) {}
 
   ngOnInit(): void {
+    this.router.navigate(["/"]);
+    this.scroller.scrollToAnchor("reviews");
+    }
   }
 
-}
